@@ -4,7 +4,7 @@ This is a POI-only testcase for the POI "bug" discussed in https://bitbucket.org
 
 Updating JXLS from POI 4.0.1 to 4.1.0 we had a problem with change https://github.com/apache/poi/commit/1253a29
 
-In setFormula() the unsetting of the v attribute has been removed.
+In setCellFormula() the unsetting of the v attribute has been removed.
 
 ## Eclipse
 
